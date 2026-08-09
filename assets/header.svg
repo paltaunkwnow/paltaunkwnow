@@ -1,244 +1,114 @@
-<svg fill="none" viewBox="0 0 800 300" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          background: linear-gradient(135deg, #090d16 0%, #0f172a 50%, #1e1b4b 100%);
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-          border-radius: 16px;
-          padding: 24px;
-          box-sizing: border-box;
-          color: #ffffff;
-          position: relative;
-          overflow: hidden;
-          border: 1px solid rgba(56, 189, 248, 0.3);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(56, 189, 248, 0.1);
-        }
+<svg width="800" height="280" viewBox="0 0 800 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes glowBorder {
+      0% { stroke: #00d2ff; filter: drop-shadow(0 0 6px #00d2ff); }
+      50% { stroke: #a855f7; filter: drop-shadow(0 0 14px #a855f7); }
+      100% { stroke: #00d2ff; filter: drop-shadow(0 0 6px #00d2ff); }
+    }
+    @keyframes smoke1 {
+      0% { transform: translate(0, 0) scale(0.6); opacity: 0; }
+      40% { opacity: 0.7; }
+      100% { transform: translate(-18px, -45px) scale(1.6); opacity: 0; }
+    }
+    @keyframes smoke2 {
+      0% { transform: translate(0, 0) scale(0.5); opacity: 0; }
+      50% { opacity: 0.8; }
+      100% { transform: translate(-10px, -50px) scale(1.8); opacity: 0; }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+    .card-border { animation: glowBorder 4s infinite alternate; }
+    .smoke-puff-1 { animation: smoke1 2.8s infinite linear; }
+    .smoke-puff-2 { animation: smoke2 3.4s infinite linear 1.2s; }
+    .star-1 { animation: twinkle 3s infinite ease-in-out; }
+    .star-2 { animation: twinkle 2.2s infinite ease-in-out 1s; }
+  </style>
 
-        /* Star particles animation */
-        .stars {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          pointer-events: none;
-          background-image: 
-            radial-gradient(2px 2px at 20px 30px, #ffffff, rgba(0,0,0,0)),
-            radial-gradient(2px 2px at 150px 80px, #38bdf8, rgba(0,0,0,0)),
-            radial-gradient(1px 1px at 300px 180px, #ffffff, rgba(0,0,0,0)),
-            radial-gradient(2px 2px at 450px 40px, #c084fc, rgba(0,0,0,0)),
-            radial-gradient(1px 1px at 600px 220px, #ffffff, rgba(0,0,0,0)),
-            radial-gradient(2px 2px at 720px 110px, #38bdf8, rgba(0,0,0,0));
-          animation: twinkle 4s infinite alternate;
-        }
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
 
-        @keyframes twinkle {
-          0% { opacity: 0.3; transform: scale(0.98); }
-          100% { opacity: 1; transform: scale(1.02); }
-        }
+    <!-- Avatar Glow Gradient -->
+    <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
 
-        /* Outer animated glow ring */
-        .card-glow {
-          position: absolute;
-          top: -50%;
-          left: -50%;
-          width: 200%;
-          height: 200%;
-          background: conic-gradient(from 0deg at 50% 50%, rgba(56, 189, 248, 0.15) 0deg, rgba(168, 85, 247, 0.15) 180deg, rgba(56, 189, 248, 0.15) 360deg);
-          animation: rotateGlow 12s linear infinite;
-          pointer-events: none;
-        }
+    <!-- Avatar Clip Circle -->
+    <clipPath id="avatarClip">
+      <circle cx="105" cy="140" r="54"/>
+    </clipPath>
+  </defs>
 
-        @keyframes rotateGlow {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
+  <!-- Outer Main Card -->
+  <rect x="4" y="4" width="792" height="272" rx="20" fill="url(#bgGrad)" stroke="#38bdf8" stroke-width="2" class="card-border"/>
 
-        .inner-box {
-          position: relative;
-          z-index: 1;
-          background: rgba(15, 23, 42, 0.75);
-          backdrop-filter: blur(12px);
-          border-radius: 12px;
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          padding: 24px;
-          display: flex;
-          align-items: center;
-          gap: 24px;
-        }
+  <!-- Inner Glass Box -->
+  <rect x="24" y="24" width="752" height="232" rx="14" fill="#0f172a" fill-opacity="0.8" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
 
-        .avatar-wrap {
-          position: relative;
-          width: 100px;
-          height: 100px;
-          flex-shrink: 0;
-        }
+  <!-- Star Field -->
+  <circle cx="60" cy="50" r="1.5" fill="#ffffff" class="star-1"/>
+  <circle cx="720" cy="65" r="2" fill="#38bdf8" class="star-2"/>
+  <circle cx="680" cy="225" r="1.5" fill="#c084fc" class="star-1"/>
+  <circle cx="140" cy="235" r="2" fill="#ffffff" class="star-2"/>
+  <circle cx="450" cy="45" r="1.5" fill="#38bdf8" class="star-1"/>
 
-        .avatar-border {
-          position: absolute;
-          inset: -4px;
-          border-radius: 50%;
-          background: linear-gradient(45deg, #00d2ff, #a855f7, #3b82f6);
-          animation: pulseBorder 3s infinite alternate;
-        }
+  <!-- Avatar Glowing Ring -->
+  <circle cx="105" cy="140" r="58" fill="none" stroke="url(#avatarGlow)" stroke-width="4"/>
 
-        @keyframes pulseBorder {
-          0% { filter: drop-shadow(0 0 4px #00d2ff); }
-          100% { filter: drop-shadow(0 0 12px #a855f7); }
-        }
+  <!-- User's Actual Avatar Image (Duck Smoking with Cowboy Hat) -->
+  <image href="https://github.com/paltaunkwnow.png" x="51" y="86" width="108" height="108" clip-path="url(#avatarClip)"/>
 
-        .avatar-img {
-          position: relative;
-          width: 100px;
-          height: 100px;
-          border-radius: 50%;
-          background: #0f172a;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          overflow: hidden;
-        }
+  <!-- Animated Smoke Effect coming out of cigarette -->
+  <g transform="translate(142, 125)">
+    <circle class="smoke-puff-1" cx="0" cy="0" r="5" fill="#e2e8f0" opacity="0"/>
+    <circle class="smoke-puff-2" cx="3" cy="-4" r="7" fill="#cbd5e1" opacity="0"/>
+    <circle class="smoke-puff-1" cx="-2" cy="-8" r="9" fill="#94a3b8" opacity="0"/>
+  </g>
 
-        .user-info {
-          flex-grow: 1;
-        }
+  <!-- Profile Text Info -->
+  <text x="185" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#38bdf8" letter-spacing="1">@paltaunkwnow</text>
 
-        .username {
-          font-size: 14px;
-          color: #38bdf8;
-          font-weight: 600;
-          letter-spacing: 1px;
-          margin-bottom: 2px;
-          display: flex;
-          align-items: center;
-          gap: 6px;
-        }
+  <text x="185" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff">PatoDev</text>
 
-        .display-name {
-          font-size: 32px;
-          font-weight: 800;
-          background: linear-gradient(90deg, #ffffff 0%, #e2e8f0 50%, #38bdf8 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          margin: 0;
-          line-height: 1.2;
-        }
+  <text x="185" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">Next.js &amp; TypeScript Web Developer | CyberSecurity Learner</text>
 
-        .tagline {
-          font-size: 14px;
-          color: #94a3b8;
-          margin-top: 4px;
-          margin-bottom: 16px;
-          font-weight: 400;
-        }
+  <!-- Skill Badges (Pure SVG) -->
+  <!-- TypeScript -->
+  <g transform="translate(185, 172)">
+    <rect x="0" y="0" width="105" height="28" rx="14" fill="#1e293b" stroke="#3178c6" stroke-width="1.5"/>
+    <text x="52" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#60a5fa" text-anchor="middle">TypeScript</text>
+  </g>
 
-        .pills {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 8px;
-        }
+  <!-- Next.js -->
+  <g transform="translate(300, 172)">
+    <rect x="0" y="0" width="85" height="28" rx="14" fill="#1e293b" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="42" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Next.js</text>
+  </g>
 
-        .pill {
-          background: rgba(30, 41, 59, 0.8);
-          border: 1px solid rgba(56, 189, 248, 0.3);
-          border-radius: 20px;
-          padding: 4px 14px;
-          font-size: 12px;
-          font-weight: 600;
-          color: #e2e8f0;
-          transition: all 0.3s ease;
-          display: inline-flex;
-          align-items: center;
-          gap: 6px;
-        }
+  <!-- CyberSecurity -->
+  <g transform="translate(395, 172)">
+    <rect x="0" y="0" width="125" height="28" rx="14" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="62" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#c084fc" text-anchor="middle">CyberSecurity</text>
+  </g>
 
-        .pill-sec {
-          border-color: rgba(168, 85, 247, 0.4);
-          color: #c084fc;
-        }
+  <!-- Python -->
+  <g transform="translate(530, 172)">
+    <rect x="0" y="0" width="80" height="28" rx="14" fill="#1e293b" stroke="#3776ab" stroke-width="1.5"/>
+    <text x="40" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#38bdf8" text-anchor="middle">Python</text>
+  </g>
 
-        .pill-next {
-          border-color: rgba(255, 255, 255, 0.3);
-          color: #ffffff;
-        }
-
-        .pill-ts {
-          border-color: rgba(49, 120, 198, 0.5);
-          color: #60a5fa;
-        }
-
-        .stats-badge {
-          text-align: right;
-          border-left: 1px solid rgba(255, 255, 255, 0.1);
-          padding-left: 20px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          min-width: 90px;
-        }
-
-        .stat-value {
-          font-size: 28px;
-          font-weight: 900;
-          color: #38bdf8;
-          line-height: 1;
-        }
-
-        .stat-label {
-          font-size: 10px;
-          color: #64748b;
-          text-transform: uppercase;
-          letter-spacing: 1.5px;
-          margin-top: 6px;
-        }
-      </style>
-
-      <div class="container">
-        <div class="stars"></div>
-        <div class="card-glow"></div>
-        <div class="inner-box">
-          <div class="avatar-wrap">
-            <div class="avatar-border"></div>
-            <div class="avatar-img">
-              <!-- Duck Avatar Vector -->
-              <svg width="70" height="70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Duck Head & Body -->
-                <circle cx="50" cy="55" r="32" fill="#FACC15"/>
-                <!-- Hat / Cowboy vibe -->
-                <path d="M20 36 C25 20, 75 20, 80 36 Z" fill="#475569"/>
-                <rect x="15" y="34" width="70" height="6" rx="3" fill="#334155"/>
-                <rect x="30" y="30" width="40" height="4" fill="#E11D48"/>
-                <!-- Eyes / Sunglasses -->
-                <rect x="32" y="46" width="16" height="12" rx="3" fill="#0F172A"/>
-                <rect x="52" y="46" width="16" height="12" rx="3" fill="#0F172A"/>
-                <line x1="48" y1="50" x2="52" y2="50" stroke="#0F172A" stroke-width="2"/>
-                <!-- Beak -->
-                <path d="M40 62 C40 58, 60 58, 60 62 C60 70, 40 70, 40 62 Z" fill="#F97316"/>
-              </svg>
-            </div>
-          </div>
-
-          <div class="user-info">
-            <div class="username">@paltaunkwnow</div>
-            <h1 class="display-name">PatoDev</h1>
-            <div class="tagline">Next.js &amp; TypeScript Developer | Cybersecurity Learner</div>
-            <div class="pills">
-              <span class="pill pill-ts">TypeScript</span>
-              <span class="pill pill-next">Next.js</span>
-              <span class="pill">Python</span>
-              <span class="pill">JavaScript</span>
-              <span class="pill pill-sec">CyberSecurity</span>
-            </div>
-          </div>
-
-          <div class="stats-badge">
-            <div class="stat-value">PRO</div>
-            <div class="stat-label">PROFILE</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+  <!-- Right Divider & Status -->
+  <g transform="translate(660, 75)">
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#334155" stroke-width="1"/>
+    <text x="45" y="55" font-family="sans-serif" font-size="24" font-weight="900" fill="#38bdf8" text-anchor="middle">PRO</text>
+    <text x="45" y="75" font-family="sans-serif" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1.5">PROFILE</text>
+  </g>
 </svg>

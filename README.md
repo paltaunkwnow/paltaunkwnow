@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- Header Banner Animated SVG -->
+  <!-- Header Banner Animated SVG with Duck Avatar & Smoking Animation -->
   <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/header.svg" width="100%" alt="PatoDev Profile Header" />
 
   <br/><br/>
@@ -29,28 +29,32 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/terminal.svg" width="22" height="22" align="center"/> About Me
-
 <div align="left">
+  <img src="https://img.shields.io/badge/ABOUT_ME-0f172a?style=for-the-badge&logo=terminal&logoColor=38bdf8&labelColor=1e293b" alt="About Me Section"/>
+</div>
+
+<br/>
 
 Desarrollador apasionado por la creación de aplicaciones web modernas e interactivas. Cuento con experiencia en tecnologías de última generación para desarrollo web como **Next.js**, **TypeScript**, **React** y **Node.js**, enfocado en la construcción de interfaces atractivas, dinámicas y de alto rendimiento.
 
 Asimismo, estoy iniciando mi camino y adentrándome activamente en el mundo de la **Ciberseguridad**, explorando conceptos de seguridad informática, pruebas de penetración, análisis de vulnerabilidades y protección de infraestructuras digitales.
 
-</div>
-
 <br/>
 
 ---
 
-### <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/settings.svg" width="22" height="22" align="center"/> Tech Stack &amp; Tools
+<div align="left">
+  <img src="https://img.shields.io/badge/TECH_STACK_%26_TOOLS-0f172a?style=for-the-badge&logo=codeforces&logoColor=38bdf8&labelColor=1e293b" alt="Tech Stack Section"/>
+</div>
+
+<br/>
 
 #### Modern Web Development
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
@@ -76,7 +80,11 @@ Asimismo, estoy iniciando mi camino y adentrándome activamente en el mundo de l
 
 ---
 
-### <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/graph.svg" width="22" height="22" align="center"/> GitHub Activity &amp; Performance
+<div align="left">
+  <img src="https://img.shields.io/badge/GITHUB_ACTIVITY-0f172a?style=for-the-badge&logo=github&logoColor=38bdf8&labelColor=1e293b" alt="GitHub Activity Section"/>
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -93,7 +101,11 @@ Asimismo, estoy iniciando mi camino y adentrándome activamente en el mundo de l
 
 ---
 
-### <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/gamepad.svg" width="22" height="22" align="center"/> Contribution Space Shooter
+<div align="left">
+  <img src="https://img.shields.io/badge/CONTRIBUTION_SPACE_GRID-0f172a?style=for-the-badge&logo=gamepad&logoColor=38bdf8&labelColor=1e293b" alt="Space Grid Section"/>
+</div>
+
+<br/>
 
 <div align="center">
 
