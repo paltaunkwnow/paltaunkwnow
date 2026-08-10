@@ -64,7 +64,7 @@
   <circle cx="105" cy="140" r="58" fill="none" stroke="url(#avatarGlow)" stroke-width="4"/>
 
   <!-- User's Actual Avatar Image (Duck Smoking with Cowboy Hat) -->
-  <image href="https://github.com/paltaunkwnow.png" x="51" y="86" width="108" height="108" clip-path="url(#avatarClip)"/>
+  <image href="https://avatars.githubusercontent.com/u/paltaunkwnow" x="51" y="86" width="108" height="108" clip-path="url(#avatarClip)"/>
 
   <!-- Animated Smoke Effect coming out of cigarette -->
   <g transform="translate(142, 125)">
@@ -74,41 +74,59 @@
   </g>
 
   <!-- Profile Text Info -->
-  <text x="185" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#38bdf8" letter-spacing="1">@paltaunkwnow</text>
+  <text x="185" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#38bdf8" letter-spacing="1">@paltaunkwnow</text>
 
-  <text x="185" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff">PatoDev</text>
+  <text x="185" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff">PatoDev</text>
 
-  <text x="185" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">Next.js &amp; TypeScript Web Developer | CyberSecurity Learner</text>
+  <text x="185" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94a3b8">Next.js &amp; TypeScript Developer | Ethical Hacking &amp; Security Learner</text>
 
-  <!-- Skill Badges (Pure SVG) -->
+  <!-- Row 1 Pills: Web Tech -->
   <!-- TypeScript -->
-  <g transform="translate(185, 172)">
-    <rect x="0" y="0" width="105" height="28" rx="14" fill="#1e293b" stroke="#3178c6" stroke-width="1.5"/>
-    <text x="52" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#60a5fa" text-anchor="middle">TypeScript</text>
+  <g transform="translate(185, 164)">
+    <rect x="0" y="0" width="100" height="26" rx="13" fill="#1e293b" stroke="#3178c6" stroke-width="1.5"/>
+    <text x="50" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">TypeScript</text>
   </g>
 
   <!-- Next.js -->
-  <g transform="translate(300, 172)">
-    <rect x="0" y="0" width="85" height="28" rx="14" fill="#1e293b" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.5"/>
-    <text x="42" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Next.js</text>
-  </g>
-
-  <!-- CyberSecurity -->
-  <g transform="translate(395, 172)">
-    <rect x="0" y="0" width="125" height="28" rx="14" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
-    <text x="62" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#c084fc" text-anchor="middle">CyberSecurity</text>
+  <g transform="translate(293, 164)">
+    <rect x="0" y="0" width="80" height="26" rx="13" fill="#1e293b" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Next.js</text>
   </g>
 
   <!-- Python -->
-  <g transform="translate(530, 172)">
-    <rect x="0" y="0" width="80" height="28" rx="14" fill="#1e293b" stroke="#3776ab" stroke-width="1.5"/>
-    <text x="40" y="18" font-family="sans-serif" font-size="12" font-weight="700" fill="#38bdf8" text-anchor="middle">Python</text>
+  <g transform="translate(381, 164)">
+    <rect x="0" y="0" width="75" height="26" rx="13" fill="#1e293b" stroke="#3776ab" stroke-width="1.5"/>
+    <text x="37" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">Python</text>
   </g>
 
-  <!-- Right Divider & Status -->
-  <g transform="translate(660, 75)">
-    <line x1="0" y1="0" x2="0" y2="120" stroke="#334155" stroke-width="1"/>
-    <text x="45" y="55" font-family="sans-serif" font-size="24" font-weight="900" fill="#38bdf8" text-anchor="middle">PRO</text>
-    <text x="45" y="75" font-family="sans-serif" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1.5">PROFILE</text>
+  <!-- JavaScript -->
+  <g transform="translate(464, 164)">
+    <rect x="0" y="0" width="95" height="26" rx="13" fill="#1e293b" stroke="#f7df1e" stroke-width="1.5"/>
+    <text x="47" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#facc15" text-anchor="middle">JavaScript</text>
+  </g>
+
+  <!-- Row 2 Pills: Cybersecurity Tools & Techniques -->
+  <!-- Ethical Hacking -->
+  <g transform="translate(185, 200)">
+    <rect x="0" y="0" width="120" height="26" rx="13" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="60" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#c084fc" text-anchor="middle">Ethical Hacking</text>
+  </g>
+
+  <!-- Penetration Testing -->
+  <g transform="translate(313, 200)">
+    <rect x="0" y="0" width="145" height="26" rx="13" fill="#1e293b" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="72" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#fb7185" text-anchor="middle">Penetration Testing</text>
+  </g>
+
+  <!-- Network Security -->
+  <g transform="translate(466, 200)">
+    <rect x="0" y="0" width="130" height="26" rx="13" fill="#1e293b" stroke="#0284c7" stroke-width="1.5"/>
+    <text x="65" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">Network Security</text>
+  </g>
+
+  <!-- Kali Linux -->
+  <g transform="translate(604, 200)">
+    <rect x="0" y="0" width="90" height="26" rx="13" fill="#1e293b" stroke="#557c93" stroke-width="1.5"/>
+    <text x="45" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="middle">Kali Linux</text>
   </g>
 </svg>

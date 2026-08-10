@@ -1,13 +1,13 @@
 <div align="center">
 
-  <!-- Header Banner Animated SVG with Duck Avatar & Smoking Animation -->
+  <!-- Header Banner Animated SVG -->
   <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/header.svg" width="100%" alt="PatoDev Profile Header" />
 
   <br/><br/>
 
   <!-- Animated Typing SVG -->
   <a href="https://github.com/paltaunkwnow">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=650&height=45&lines=Hello+World!+I'm+PatoDev;Web+Developer+Specialized+in+Next.js+%26+TypeScript;Exploring+the+World+of+Cybersecurity;Building+Modern,+Scalable+%26+High-Performance+Web+Apps" alt="Typing SVG Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=650&height=45&lines=Hello+World!+I'm+PatoDev;Web+Developer+Specialized+in+Next.js+%26+TypeScript;Ethical+Hacking+%26+Penetration+Testing+Learner;Building+Modern,+Scalable+%26+Secure+Web+Apps" alt="Typing SVG Banner" />
   </a>
 
   <br/><br/>
@@ -37,7 +37,7 @@
 
 Desarrollador apasionado por la creación de aplicaciones web modernas e interactivas. Cuento con experiencia en tecnologías de última generación para desarrollo web como **Next.js**, **TypeScript**, **React** y **Node.js**, enfocado en la construcción de interfaces atractivas, dinámicas y de alto rendimiento.
 
-Asimismo, estoy iniciando mi camino y adentrándome activamente en el mundo de la **Ciberseguridad**, explorando conceptos de seguridad informática, pruebas de penetración, análisis de vulnerabilidades y protección de infraestructuras digitales.
+Asimismo, estoy iniciando mi camino y adentrándome activamente en el ámbito del **Hacking Ético** y la **Seguridad de la Información**, explorando técnicas de **Pruebas de Penetración (Penetration Testing)**, **Análisis de Vulnerabilidades**, **Seguridad en Redes** y auditoría de sistemas digitales.
 
 <br/>
 
@@ -68,11 +68,15 @@ Asimismo, estoy iniciando mi camino y adentrándome activamente en el mundo de l
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </p>
 
-#### Cyber Security &amp; Environment
+#### Security Techniques &amp; Tools
 <p align="left">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Ethical_Hacking-000000?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Ethical Hacking"/>
+  <img src="https://img.shields.io/badge/Penetration_Testing-E11D48?style=for-the-badge&logo=target&logoColor=white" alt="Penetration Testing"/>
+  <img src="https://img.shields.io/badge/Network_Security-0284C7?style=for-the-badge&logo=shield&logoColor=white" alt="Network Security"/>
+  <img src="https://img.shields.io/badge/OWASP_Top_10-38BDF8?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
   <img src="https://img.shields.io/badge/Kali_Linux-557C93?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
 </p>
 
