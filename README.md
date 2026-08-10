@@ -1,15 +1,15 @@
 <div align="center">
 
-  <!-- Animated Duck GIF + Header Banner -->
-  <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/header.svg" width="100%" alt="PatoDev Profile Header" />
+  <!-- Header Banner Animated SVG with Cache Buster -->
+  <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/header.svg?v=3" width="100%" alt="PatoDev Profile Header" />
 
   <br/><br/>
 
   <!-- Animated Duck GIF & Typing Banner side-by-side -->
   <table>
     <tr>
-      <td align="center" width="150">
-        <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/duck_animated.gif" width="120" alt="Animated Duck" />
+      <td align="center" width="140">
+        <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/duck_animated.gif?v=3" width="110" alt="Animated Duck" />
       </td>
       <td align="center">
         <a href="https://github.com/paltaunkwnow">
@@ -104,8 +104,8 @@ En el ámbito de la **Ciberseguridad**, me desempeño e instruyo activamente com
 
 <br/>
 
-<!-- OSINT Cyber Intelligence Banner SVG -->
-<img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/duck_sec.svg" width="100%" alt="OSINT & Cyber Unit Banner" />
+<!-- OSINT Cyber Intelligence Banner SVG with Cache Buster -->
+<img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/duck_sec.svg?v=3" width="100%" alt="OSINT & Cyber Unit Banner" />
 
 <br/><br/>
 
@@ -145,12 +145,13 @@ En el ámbito de la **Ciberseguridad**, me desempeño e instruyo activamente com
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=paltaunkwnow&show_icons=true&theme=tokyonight&hide_border=false&border_color=38bdf8&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8" width="48%" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paltaunkwnow&layout=compact&theme=tokyonight&hide_border=false&border_color=38bdf8&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8" width="48%" alt="Top Languages"/>
+  <!-- Highly Stable GitHub Activity Graph Card -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=paltaunkwnow&theme=tokyo-night&area=true&hide_border=false" width="97%" alt="GitHub Activity Graph" />
 
   <br/><br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=paltaunkwnow&theme=tokyonight&background=0F172A&border=38BDF8&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="97%" alt="GitHub Streak"/>
+  <!-- GitHub Streak Card -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=paltaunkwnow&theme=tokyonight&background=0F172A&border=38BDF8&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="97%" alt="GitHub Streak" />
 
 </div>
 
