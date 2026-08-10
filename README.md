@@ -1,25 +1,16 @@
 <div align="center">
 
-  <!-- Header Banner Animated SVG with Cache Buster -->
+  <!-- Header Banner Animated SVG with Base64 Avatar -->
   <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/header.svg?v=3" width="100%" alt="PatoDev Profile Header" />
 
   <br/><br/>
 
-  <!-- Animated Duck GIF & Typing Banner side-by-side -->
-  <table>
-    <tr>
-      <td align="center" width="140">
-        <img src="https://raw.githubusercontent.com/paltaunkwnow/paltaunkwnow/main/assets/duck_animated.gif?v=3" width="110" alt="Animated Duck" />
-      </td>
-      <td align="center">
-        <a href="https://github.com/paltaunkwnow">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=520&height=50&lines=Hello+World!+I'm+PatoDev;Fullstack+Dev+Specialized+in+Next.js+%26+TypeScript;OSINT+Investigator+%26+Ethical+Hacker;Building+Modern,+Secure+%26+Scalable+Solutions" alt="Typing SVG Banner" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <!-- Animated Typing SVG Banner -->
+  <a href="https://github.com/paltaunkwnow">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=650&height=45&lines=Hello+World!+I'm+PatoDev;Fullstack+Dev+Specialized+in+Next.js+%26+TypeScript;OSINT+Investigator+%26+Ethical+Hacker;Building+Modern,+Secure+%26+Scalable+Solutions" alt="Typing SVG Banner" />
+  </a>
 
-  <br/>
+  <br/><br/>
 
   <!-- Shields Badges -->
   <a href="https://github.com/paltaunkwnow">
