@@ -1,3 +1,0 @@
-docs: add security policy
-
-Co-authored-by: octocat <octocat@github.com>
