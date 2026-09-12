@@ -8,12 +8,15 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate 3d contrib
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -23,5 +26,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A .
-          git commit -m "chore: update 3d contribution calendar" || exit 0
-          git push
+          if git commit -m "chore: update 3d contribution calendar"; then
+            git push
+          fi
